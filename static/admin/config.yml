@@ -10,6 +10,11 @@ backend:
 media_folder: static/img
 public_folder: /img
 
+backend:
+  name: github
+  repo: sgbedmar/web-site # Path to your Github repository
+
+
 # Docs: https://www.netlifycms.org/docs/configuration-options/#collections
 collections:
   - label: 'Site settings'
